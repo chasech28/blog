@@ -70,10 +70,22 @@ jobs:
   git-mirror:
     runs-on: ubuntu-latest
     steps:
-      - uses: wearerequired/git-mirror-action@v1
+      - name: Mirror to gitee 
+        uses: wearerequired/git-mirror-action@v1
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          # SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
+          SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
         with:
           source-repo: "git@github.com:chasech28/blog.git"
           destination-repo: "git@gitee.com:chasech28/blog.git"
+
+      # - name: Build Gitee Pages
+      #   uses: yanglbme/gitee-pages-action@main
+      #   with:
+      #     # Replace with your Gitee username
+      #     gitee-username: ${{ secrets.GITEE_USER }}
+      #     gitee-password: ${{ secrets.GITEE_PWD }}
+      #     # Replace with your Gitee repository, the name is case-sensitive
+      #     gitee-repo: ${{ secrets.GITEE_REPO }}
+      #     # Specify the branch to deploy, default is master, change if needed
+      #     branch: main
