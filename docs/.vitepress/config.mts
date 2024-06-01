@@ -18,7 +18,7 @@ export default defineConfig({
     logo: '/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Algorithm', link: '/Alg-training/' },
+      { text: 'Algorithm', link: '/Algorithm/' },
       { text: 'Others', link: '/Others/'}
     ],
     search: {
