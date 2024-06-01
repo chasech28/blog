@@ -20,3 +20,11 @@
 
 - 注意事项：
     - 若使用npm安装vitePress，则无需修改deploy.yml文件；反之，则需要修改deploy.yml文件
+
+## 3.好用插件推荐
+
+### VitePress Sidebar
+
+- 该插件可以根据文件结构自动生成侧边栏
+
+[Getting Started | VitePress Sidebar](https://vitepress-sidebar.jooy2.com/guide/getting-started)
