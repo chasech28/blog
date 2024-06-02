@@ -4,12 +4,12 @@ import VitePressSidebar from 'vitepress-sidebar';
 const vitepressSidebarOptions = [
   {
     documentRootPath: 'docs',
-    scanStartPath: 'others',
+    scanStartPath: '/others/',
     resolvePath: '/others/',
   },
   {
     documentRootPath: 'docs',
-    scanStartPath: 'algorithm',
+    scanStartPath: '/algorithm/',
     resolvePath: '/algorithm/',
   }
 ];
