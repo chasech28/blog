@@ -11,6 +11,11 @@ const vitepressSidebarOptions = [
     documentRootPath: 'docs',
     scanStartPath: 'algorithm',
     resolvePath: '/algorithm/',
+  },
+  {
+    documentRootPath: 'docs',
+    scanStartPath: 'problems',
+    resolvePath: '/problems/',
   }
 ];
 
@@ -28,7 +33,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Algorithm', link: '/algorithm/' },
-      { text: 'Others', link: '/others/' }
+      { text: 'Others', link: '/others/' },
+      { text: 'Problems', link: '/problems/' },
     ],
     search: {
       provider: 'local'
