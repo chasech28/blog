@@ -16,7 +16,7 @@ ENOENT: no such file or directory, scandir '/home/runner/work/blog/blog/docs/oth
 
 2. 修改博客配置文件; Others->others
 
-   ![image-20240602115329064](./../.img/image-20240602115329064.png)
+   ![image-20240602115329064](https://s2.loli.net/2024/06/03/lDwGbHjdT8Kzh1a.png)
 
 ### 产生错误的原因是什么
 
