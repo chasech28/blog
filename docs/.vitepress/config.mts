@@ -24,7 +24,8 @@ export default defineConfig({
   title: "Chase's Blog",
   description: "learn blog",
   head: [
-    ['link', { rel: 'icon', href: '/blog/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/blog/favicon.ico' }],
+
   ],
   lastUpdated: true,
   cleanUrls: true,
@@ -50,3 +51,4 @@ export default defineConfig({
     }
   }
 })
+
