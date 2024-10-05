@@ -3,3 +3,5 @@ docs/.vitepress/cache
 docs/.vitepress/dist
 docs/.obsidian
 docs/.img
+docs/*.md
+!docs/index.md
