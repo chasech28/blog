@@ -2,21 +2,21 @@ import { defineConfig } from 'vitepress'
 import VitePressSidebar from 'vitepress-sidebar';
 
 const vitepressSidebarOptions = [
-  {
-    documentRootPath: 'docs',
-    scanStartPath: 'others',
-    resolvePath: '/others/',
-  },
-  {
-    documentRootPath: 'docs',
-    scanStartPath: 'algorithm',
-    resolvePath: '/algorithm/',
-  },
-  {
-    documentRootPath: 'docs',
-    scanStartPath: 'problems',
-    resolvePath: '/problems/',
-  }
+  // {
+  //   documentRootPath: 'docs',
+  //   scanStartPath: 'others',
+  //   resolvePath: '/others/',
+  // },
+  // {
+  //   documentRootPath: 'docs',
+  //   scanStartPath: 'algorithm',
+  //   resolvePath: '/algorithm/',
+  // },
+  // {
+  //   documentRootPath: 'docs',
+  //   scanStartPath: 'problems',
+  //   resolvePath: '/problems/',
+  // }
 ];
 
 export default defineConfig({
