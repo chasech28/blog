@@ -1,7 +1,10 @@
 node_modules
 docs/.vitepress/cache
 docs/.vitepress/dist
-docs/.obsidian
-docs/.img
-docs/*.md
-!docs/index.md
+docs/ObsidianFiles/.*
+docs/ObsidianFiles/*.md
+docs/ObsidianFiles/[a-zA-z]*
+docs/ObsidianFiles/[0-9]*
+!docs/ObsidianFiles/0400*/
+docs/ObsidianFiles/0400*/*
+!docs/ObsidianFiles/0400*/算法训练/
