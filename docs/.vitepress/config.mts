@@ -5,7 +5,6 @@ const sidebarOptions = [
   {
     documentRootPath: 'docs',
     scanStartPath: 'ObsidianFiles/0400学习管理/算法训练',
-    //resolvePath 该属性值需要与简化后的网页路径保持一致
     //简化前
     // resolvePath: 'ObsidianFiles/0400学习管理/算法训练/',
     //简化后
@@ -22,14 +21,16 @@ export default defineConfig({
   ],
   lastUpdated: true,
   cleanUrls: true,
-  rewrites: { //简化站内网页的路径
+  rewrites: { 
+    //简化站内网页的路径
+    //开启此选项后，站内的路径，必须使用简化后的路径
     'ObsidianFiles/0400学习管理/:dir/:article': ':dir/:article',
   },
   themeConfig: {
     logo: '/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: '算法训练', link: '/ObsidianFiles/0400学习管理/算法训练/' },
+      { text: '算法训练', link: '/算法训练/' },
     ],
     search: {
       provider: 'local'

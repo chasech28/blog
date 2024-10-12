@@ -8,3 +8,4 @@ docs/ObsidianFiles/[0-9]*
 !docs/ObsidianFiles/0400*/
 docs/ObsidianFiles/0400*/*
 !docs/ObsidianFiles/0400*/算法训练/
+.vscode
